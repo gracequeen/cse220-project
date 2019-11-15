@@ -14,3 +14,8 @@ This workload comes from: https://github.com/wangkuiwu/datastructs_and_algorithm
 ./total-floyd.sh
 ```
 
+## Side Notes:
+1. Please be patient. The logged time from the report is here for reference:
+%Sim Time (s) 672.969 Exe  336.050 ms Sim (1700MHz); Host Computer parameters: 3.5 GHz Quad-Core Intel Core i5 with 3.5 GHz Quad-Core Intel Core i5
+2. I added sudo in my script, since there's some access control issue when I share files between the virtual machine and host. I've add user into vbox group still the issue is not fully resolved. \item low IPC: 0.64; instruction count: 362,993,035 - 362,993,061; Changing the input graph affects this result quite a lot. 
+
